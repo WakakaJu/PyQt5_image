@@ -8,24 +8,24 @@
 本项目是基于PyQt5开发的图形用户界面，可实现三个功能：**图像分割、图像增强、边缘检测**。</br>
 使用designer软件设计界面构成，设计三个单选功能按钮（图像分割、图像增强、边缘检测），每个功能按钮下链接四个多选按钮，用于实现功能下不同的方法和参数，更好对比效果。每个功能下的多选按钮与功能按钮单独对应。</br>
 **图像分割**可选择：OTSU法（大津法）、最大熵分割法、迭代阈值分割法、马尔可夫随机场法(其中，由于马尔可夫随机场特殊的分类特性，默认将图像分割成四类)</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro1.png" width="600" height="400"/></div></br></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro1.png =600x400)</br></br>
 **图像增强**可选择：标准直方图均衡(HE)、限制对比度自适应直方图均衡(CLAHE)、单尺度Retinex算法(SSR)、多尺度Retinex算法(MSR) </br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro2.png"/></div></br></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro2.png#pic_center =600x400)</br></br>
 **边缘检测**可选择：Roberts算子、Sobel算子、Canny算子、Laplacian算子</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro3.png"/></div></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro3.png#pic_center =600x400)</br>
 另外，还设计有选择文件按钮和开始按钮，便于用户直接操作。</br>
 </br>
 用户可直接通过鼠标点击的方法实现上述功能及对应方法，并进行对比。以Lena图为例，实现效果如下：</br>
 图像分割效果：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro4.png"/></div></br></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro4.png#pic_center =600x600)</br></br>
 图像增强效果：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro5.png"/></div></br></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro5.png#pic_center =600x600)</br></br>
 边缘检测效果：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro6.png"/></div></br></br>
+![图像分割功能区](https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro6.png#pic_center =600x600)</br></br>
 </br>
 此外，我还用我自己拍摄的我家小区的夜景效果演示一下夜景图像增强的效果:</br>
 原图：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro7.png"/></div></br></br>
+</br></br>
 增强后效果：</br>
 ![image](https://user-images.githubusercontent.com/88924975/167750123-405a5f00-f6b6-4bd6-8656-bc5b164ca53f.png)</br>
 由于夜景图像较为特殊，在此不做图像分割和边缘检测的演示。</br></br>
