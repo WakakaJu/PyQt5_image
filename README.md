@@ -8,34 +8,34 @@
 本项目是基于PyQt5开发的图形用户界面，可实现三个功能：**图像分割、图像增强、边缘检测**。</br>
 使用designer软件设计界面构成，设计三个单选功能按钮（图像分割、图像增强、边缘检测），每个功能按钮下链接四个多选按钮，用于实现功能下不同的方法和参数，更好对比效果。每个功能下的多选按钮与功能按钮单独对应。</br>
 **图像分割**可选择：OTSU法（大津法）、最大熵分割法、迭代阈值分割法、马尔可夫随机场法(其中，由于马尔可夫随机场特殊的分类特性，默认将图像分割成四类)：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro1.png" width="600" height="378"/></div></br></br>
-  
+![img_pro1](https://user-images.githubusercontent.com/88924975/170828254-a5f3c1fe-6753-491f-8c41-ff487ed22182.png)</br></br>
+
 **图像增强**可选择：标准直方图均衡(HE)、限制对比度自适应直方图均衡(CLAHE)、单尺度Retinex算法(SSR)、多尺度Retinex算法(MSR)： </br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro2.png" width="600" height="378"/></div></br></br>
+![img_pro2](https://user-images.githubusercontent.com/88924975/170828520-fc717692-b601-4d01-b5dc-ed8c2406eadf.png)</br></br>
 
 **边缘检测**可选择：Roberts算子、Sobel算子、Canny算子、Laplacian算子：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro3.png" width="600" height="378"/></div></br>
+![img_pro3](https://user-images.githubusercontent.com/88924975/170828530-5cf048eb-b60c-47a2-bab9-4d930f827c3c.png)</br>
 
 另外，还设计有选择文件按钮和开始按钮，便于用户直接操作。</br>
 </br>
 用户可直接通过鼠标点击的方法实现上述功能及对应方法，并进行对比。以Lena图为例，实现效果如下：</br>
 **图像分割效果：**</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro4.png" width="540" height="600"/></div></br></br>
+![img_pro4](https://user-images.githubusercontent.com/88924975/170828536-94dcdc71-62d6-4957-96a2-cafcbe0badd8.png)</br></br>
 
 **图像增强效果：**</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro5.png" width="540" height="600"/></div></br></br>
+![img_pro5](https://user-images.githubusercontent.com/88924975/170828545-006be88d-b643-4d93-9cc2-eb12017b8cf3.png)</br></br>
 
 **边缘检测效果：**</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro6.png" width="540" height="600"/></div></br>
+![img_pro6](https://user-images.githubusercontent.com/88924975/170828556-81a7dafb-c6d4-44ae-a757-ed97fab19599.png)</br>
 
 </br>
 此外，我还用我自己拍摄的我家小区的夜景效果演示一下夜景图像增强的效果:</br>
 
 **原图**：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro7.png" width="800" height="450"/></div></br></br>
+![img_pro7](https://user-images.githubusercontent.com/88924975/170828560-20ba93b3-a3af-4311-9c3d-fe5b83541229.png)</br></br>
 
 **增强后效果**：</br>
-<div align=center><img src="https://github.com/WakakaJu/pictures/blob/main/PyQt5/img_pro8.png" width="727" height="600"/></div></br></br>
+![img_pro8](https://user-images.githubusercontent.com/88924975/170828568-c7d3714a-e1b5-4ef0-862d-95939de50932.png)</br></br>
 
 由于夜景图像较为特殊，在此不做图像分割和边缘检测的演示。</br></br>
 *另，各方法效果对比在此不做分析，可见实验报告[《图像分割各经典方法的对比研究实验报告》](https://github.com/WakakaJu/Computer-Vision/tree/main/%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2)及[《图像增强各经典方法的对比研究实验报告》](https://github.com/WakakaJu/Computer-Vision/tree/main/%E5%9B%BE%E5%83%8F%E5%A2%9E%E5%BC%BA)*</br></br>
